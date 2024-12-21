@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Test work</title>
+  </head>
+  <body
+    style="
+      display: flex;
+      background-color: #d2d2d2;
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 0%;
+      margin: 0%;
+    "
+  >
+    <div
+      style="
+        display: flex;
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+      "
+    >
+      <div
+        style="
+          width: 300px;
+          height: 300px;
+          background-color: cadetblue;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 10px;
+          gap: 10px;
+        "
+      >
+        <h1>First Declararion</h1>
+        <button
+          style="
+            width: 100px;
+            height: 50px;
+            background-color: cornflowerblue;
+            border-radius: 5px;
+          "
+          type="button"
+          onclick="document.getElementById('demo').innerHTML = Date()"
+        >
+          Tap me to see my magic
+        </button>
+        <p id="demo" style="text-align: center"></p>
+      </div>
+      <div
+        style="
+          width: 300px;
+          height: 300px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          background-color: cadetblue;
+          border-radius: 10px;
+        "
+      >
+        <h2>What can javaSCript do?</h2>
+        <p id="demo2" style="text-align: center; padding: 10px">
+          javaScript can change the content of an HTML (click the button to see)
+        </p>
+        <button
+          style="
+            width: 70px;
+            height: 30px;
+            border-radius: 5px;
+            text-align: center;
+            background-color: cornflowerblue;
+          "
+          type="button"
+          onclick="document.getElementById('demo2').innerHTML = 'Hello Marvelous! [Double click to return to main menu]!'"
+          ondblclick="document.getElementById('demo2').innerHTML= 'javaScript can change the content of an HTML (click the button to see)'"
+        >
+          Tap me
+        </button>
+      </div>
+      <div
+        style="
+          width: 300px;
+          height: 300px;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: column;
+          background-color: cadetblue;
+          border-radius: 10px;
+        "
+      >
+        <h2 style="text-align: center">What can javaScript do?</h2>
+        <p style="text-align: center">
+          In this case, javaScript changes the value of the src (source)
+          attribute of an image
+        </p>
+        <img
+          id="image"
+          src="./images/bulb-off.jpg"
+          alt=""
+          style="width: 50px; height: 50px"
+        />
+        <button
+          style="
+            width: 130px;
+            height: 25px;
+            background-color: cornflowerblue;
+            border-radius: 5px;
+          "
+          type="button"
+          onclick="document.h=getElementById('image').src='./images/bulb-on.jpg'"
+        >
+          Tap to lit the bulb
+        </button>
+        <button
+          style="
+            width: 200px;
+            height: 25px;
+            background-color: cornflowerblue;
+            border-radius: 5px;
+          "
+          type="button"
+          onclick="document.h=getElementById('image').src='./images/bulb-off.jpg'"
+        >
+          Tap to turn off the bulb
+        </button>
+      </div>
+    </div>
+    <div
+      style="
+        display: flex;
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+      "
+    >
+      <div
+        style="
+          width: 300px;
+          height: 300px;
+          background-color: cadetblue;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 10px;
+          gap: 10px;
+        "
+      ></div>
+      <div
+        style="
+          width: 300px;
+          height: 300px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: cadetblue;
+          border-radius: 10px;
+        "
+      ></div>
+      <div
+        style="
+          width: 300px;
+          height: 300px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: cadetblue;
+          border-radius: 10px;
+        "
+      ></div>
+    </div>
+  </body>
+</html>
